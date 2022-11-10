@@ -19,6 +19,8 @@ public class BeaconWatcher : MonoBehaviour
         FManager.OnClosed += FManager_OnClosed;
 
         FWatcher = new wclBluetoothLeBeaconWatcher();
+        FWatcher.OnStarted += FWatcher_OnStarted;
+        FWatcher.OnStopped += FWatcher_OnStopped;
         FWatcher.OnAdvertisementFrameInformation += FWatcher_OnAdvertisementFrameInformation;
         FWatcher.OnAdvertisementUuidFrame += FWatcher_OnAdvertisementUuidFrame;
 
@@ -26,6 +28,16 @@ public class BeaconWatcher : MonoBehaviour
         Int32 Res = FManager.Open();
         if (Res != wclErrors.WCL_E_SUCCESS)
             Debug.Log("Open Bluetooth Manager failed: 0x" + Res.ToString("X8"));
+    }
+
+    private void FWatcher_OnStopped(object sender, EventArgs e)
+    {
+        Debug.Log("Beacon watcher stopped");
+    }
+
+    private void FWatcher_OnStarted(object sender, EventArgs e)
+    {
+        Debug.Log("Beacon watcher started");
     }
 
     private void FWatcher_OnAdvertisementUuidFrame(object Sender, Int64 Address, Int64 Timestamp,

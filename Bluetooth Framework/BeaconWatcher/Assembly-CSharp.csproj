@@ -313,23 +313,23 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.0b13\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="wclBluetoothFramework">
+      <HintPath>Assets\wclBluetoothFramework.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.0\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="wclBluetoothFramework">
-      <HintPath>Assets\wclBluetoothFramework.dll</HintPath>
+    <Reference Include="wclCommon">
+      <HintPath>Assets\wclCommon.dll</HintPath>
     </Reference>
     <Reference Include="wclCommunication">
       <HintPath>Assets\wclCommunication.dll</HintPath>
     </Reference>
-    <Reference Include="wclCommon">
-      <HintPath>Assets\wclCommon.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.0b13\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
