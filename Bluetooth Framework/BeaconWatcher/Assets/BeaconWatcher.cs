@@ -50,6 +50,13 @@ public class BeaconWatcher : MonoBehaviour
         String Name, wclBluetoothLeAdvertisementType PacketType, wclBluetoothLeAdvertisementFlag Flags)
     {
         Debug.Log("Advertisement frame recevied from " + Address.ToString("X12"));
+        // Uncomment the lines below if you want to stop search when required device found.
+        /*const Int64 DEVICE_ADDRESS = 0x30E283AD9928;
+        if (Address == DEVICE_ADDRESS)
+        {
+            Debug.Log("Device found. Stopping");
+            FWatcher.Stop();
+        }*/
     }
 
     private void FManager_OnClosed(object sender, EventArgs e)
