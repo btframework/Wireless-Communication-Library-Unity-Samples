@@ -3,3 +3,10 @@ Bluetooth Framework/GattClient/Assets/wclBluetoothFramework.dll
 Bluetooth Framework/GattClient/Assets/wclCommon.dll
 Bluetooth Framework/GattClient/Assets/wclCommunication.dll
 *.dll
+Bluetooth Framework/GattClient/Assets/wclBluetoothFramework.dll.meta
+Bluetooth Framework/GattClient/Assets/wclCommon.dll.meta
+Bluetooth Framework/GattClient/Assets/wclCommunication.dll.meta
+Bluetooth Framework/GattClient/Library/APIUpdater/project-dependencies.graph
+Bluetooth Framework/GattClient/Library/ilpp.pid
+Bluetooth Framework/GattClient/Library/SceneVisibilityState.asset
+Bluetooth Framework/GattClient/UserSettings/Layouts/default-2022.dwlt
