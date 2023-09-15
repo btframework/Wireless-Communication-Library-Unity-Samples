@@ -1,12 +1,10 @@
 using System;
+using System.Text;
 using System.Collections.Generic;
 using UnityEngine;
 
 using wclCommon;
 using wclBluetooth;
-using System.Security.Cryptography;
-using UnityEditor.PackageManager;
-using System.Text;
 
 public class RfCommClient : MonoBehaviour
 {
