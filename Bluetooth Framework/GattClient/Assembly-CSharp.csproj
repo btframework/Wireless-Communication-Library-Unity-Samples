@@ -65,6 +65,7 @@
   <ItemGroup>
     <None Include="Assets\wclBluetoothFramework.dll" />
     <None Include="Assets\wclCommon.dll" />
+    <None Include="Assets\wclDri.dll" />
     <None Include="Assets\wclCommunication.dll" />
   </ItemGroup>
   <ItemGroup>
@@ -418,6 +419,10 @@
     </Reference>
     <Reference Include="wclCommunication">
       <HintPath>Assets\wclCommunication.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="wclDri">
+      <HintPath>Assets\wclDri.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
