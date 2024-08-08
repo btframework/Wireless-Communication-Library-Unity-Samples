@@ -56,6 +56,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\Projects\Shared Projects\Windows\Unity\Bluetooth Framework\GattClient\Assets\wclCommon.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -417,12 +418,12 @@
       <HintPath>Assets\wclCommon.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="wclCommunication">
-      <HintPath>Assets\wclCommunication.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="wclDri">
       <HintPath>Assets\wclDri.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="wclCommunication">
+      <HintPath>Assets\wclCommunication.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
