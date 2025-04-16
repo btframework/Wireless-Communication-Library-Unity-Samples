@@ -80,12 +80,11 @@ public class GattClientThread : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        wclMessageBroadcaster.SetSyncMethod(wclMessageSynchronizationKind.skThread);
-
         CommThread = null;
         TerminateEvent = new ManualResetEvent(false);
 
         Manager = new wclBluetoothManager();
+        Manager.MessageProcessing = wclMessageProcessingMethod.mpAsync;
         Manager.AfterOpen += Manager_AfterOpen;
         Manager.OnClosed += Manager_OnClosed;
 
